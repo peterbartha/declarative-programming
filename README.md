@@ -2,4 +2,4 @@
 Cekla, Prolog and Erlang scripts to solving problems (BME)
 
 ## Tasks
- * hw0 (Cekla): [binary-match](http://dp.iit.bme.hu/dp-current/dp15a-khf0.html)
+ * hw0 (Cekla): [binary-match](https://github.com/peterbartha/declarative-programming/tree/master/hw00-cekla)
