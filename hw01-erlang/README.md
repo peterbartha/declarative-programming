@@ -37,15 +37,12 @@ A programot tartalmazó modul attribútumai ezek legyenek:
 
 ### Példák
 ```erlang
-| ?- lista_zsak([], ZS).
-ZS = [] ? ;
-no
-| ?- lista_zsak([a,b,a,b,b], ZS).
-ZS = [a-2,b-3] ? ;
-no
-| ?- lista_zsak([korte,alma,dio,alma,dio,dio,tok], ZS).
-ZS = [korte-1,alma-2,dio-3,tok-1] ? ;
-no
+1> khf1:lista_zsak([]).
+[]
+2> khf1:lista_zsak([a,b,a,b,b]).
+[{a,2},{b,3}]
+3> khf1:lista_zsak([korte,alma,dio,alma,dio,dio,tok]).
+[{korte,1},{alma,2},{dio,3},{tok,1}]
 ```
 
 Természetesen mindkét nyelv esetén elfogadjuk azokat a programokat is, amelyek eredményei a fentiektől csak a listaelemek sorrendjében térnek el.
