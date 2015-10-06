@@ -1,4 +1,4 @@
-# First Cekla program
+# First program in Cekla (Declarative C++)
 
 ## 0. kis házi feladat (Cekla)
 
